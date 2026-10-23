@@ -1,0 +1,25 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.spec
+
+# Build & packaging artifacts
+build/
+dist/
+
+# Diagnostic test outputs & run logs
+results/*.txt
+results/*.json
+!results/.gitkeep
+reports/
+
+# Developer / AI handover notes
+PROJECT_STATUS.md
+
+# Virtual environments & IDEs
+venv/
+.venv/
+env/
+.idea/
+.vscode/
